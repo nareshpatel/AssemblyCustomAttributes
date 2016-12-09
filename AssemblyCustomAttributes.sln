@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E462D9AE-7177-4B68-8E89-774B7CE72334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{207CCE5E-EAA0-48DC-ACC1-911ED34DB30E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AssemblyCustomAttributes", "src\AssemblyCustomAttributes\AssemblyCustomAttributes.xproj", "{6B933DEC-1B69-4690-90E0-8511EC16137C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B933DEC-1B69-4690-90E0-8511EC16137C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B933DEC-1B69-4690-90E0-8511EC16137C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B933DEC-1B69-4690-90E0-8511EC16137C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B933DEC-1B69-4690-90E0-8511EC16137C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B933DEC-1B69-4690-90E0-8511EC16137C} = {E462D9AE-7177-4B68-8E89-774B7CE72334}
+	EndGlobalSection
+EndGlobal
